@@ -17,7 +17,7 @@ function Header(props) {
                 </div>
             </div>
 
-            <div className='row justify-content-md-center mt-4' >
+            <div className='row justify-content-md-center mt-2' >
                 <div className='col-md-4 d-flex justify-content-start c-header-heading1 ' >
                     <HeaderCard />
                 </div>

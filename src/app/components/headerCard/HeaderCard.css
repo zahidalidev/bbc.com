@@ -1,14 +1,7 @@
 .header-card{
-    background-size: contain;
+    background-size: conver;
     background-repeat: no-repeat;
     box-shadow: inset 0 0 80px rgb(0 0 0 / 50%);
-}
-
-.media-shade{
-    background-image: linear-gradient( rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5));
-    position: absolute;
-    top: 0;
-    bottom: 0;
 }
 
 .media-content{

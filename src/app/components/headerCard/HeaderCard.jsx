@@ -4,8 +4,7 @@ import "./HeaderCard.css"
 
 function HeaderCard(props) {
     return (
-        <div style={{ height: "21rem", width: "37.2rem", backgroundImage: "url(https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/119D3/production/_122974127_bidenukraine.jpg)" }} className='header-card' >
-            <div style={{ height: "21rem", width: "37.2rem", }} className='media-shade' ></div>
+        <div style={{ height: "21rem", width: "100%", backgroundImage: "url(https://ichef.bbc.co.uk/wwhp/624/cpsprodpb/119D3/production/_122974127_bidenukraine.jpg)" }} className='header-card' >
             <div className='media-content text-light' >
                 <h3 className='media-title' >
                     <a className='media-link' >
