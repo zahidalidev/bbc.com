@@ -1,13 +1,13 @@
 .navbarContainer {
     background-color: #000;
-    height: 2.5rem;
+    min-height: 2.5rem;
 }
 .logoContainer
 { 
     height: 2.4rem; 
-    margin-top: -7px; 
+    /* margin-top: -7px;  */
     box-shadow: 0.5px 0 0 0 white; 
-    max-width: 7rem 
+    max-width: 6rem 
 }
 .logo
 { 
@@ -17,9 +17,9 @@
 .signinContainer
 { 
     height: 2.4rem; 
-    margin-top: -7px; 
+    /* margin-top: -7px;  */
     box-shadow: 0.5px 0 0 0 white; 
-    min-width: 12rem 
+    max-width: 10rem;
 }
 .siginText
 { 
@@ -39,9 +39,9 @@
 { 
     cursor: pointer; 
     height: 2.4rem; 
-    margin-top: -7px; 
+    /* margin-top: -7px;  */
     box-shadow: 0.5px 0 0 0 white; 
-    width: 5rem 
+    max-width: 5rem 
 }
 .menueText
 { 
@@ -58,7 +58,7 @@
     height: 1.246em;
     min-height: 24px;
     font-weight: bold;
-    width: 162px;
+    width: 12rem;
     float: left;
     padding: 0 0 0 6px;
     color: #333;
