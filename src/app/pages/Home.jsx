@@ -1,7 +1,7 @@
 import React from 'react';
 
 // Custom components
-import NavBar from '../components/NavBar';
+import NavBar from '../components/navbar/NavBar';
 
 function Home(props) {
 

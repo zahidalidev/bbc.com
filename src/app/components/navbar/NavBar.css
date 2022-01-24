@@ -1,0 +1,71 @@
+.navbarContainer {
+    background-color: #000;
+    height: 2.5rem;
+}
+.logoContainer
+{ 
+    height: 2.4rem; 
+    margin-top: -7px; 
+    box-shadow: 0.5px 0 0 0 white; 
+    max-width: 7rem 
+}
+.logo
+{ 
+    height: 1.3rem; 
+    margin-right: 1rem 
+}
+.signinContainer
+{ 
+    height: 2.4rem; 
+    margin-top: -7px; 
+    box-shadow: 0.5px 0 0 0 white; 
+    min-width: 12rem 
+}
+.siginText
+{ 
+    color: white; 
+    font-family: inherit; 
+    font-size: 0.9rem; 
+    font-weight: 800; 
+    margin-top: 0.9rem; 
+    margin-left: 0.3rem 
+}
+.userIcon
+{ 
+    color: white; 
+    font-size: 1.1rem 
+}
+.menueButtons
+{ 
+    cursor: pointer; 
+    height: 2.4rem; 
+    margin-top: -7px; 
+    box-shadow: 0.5px 0 0 0 white; 
+    width: 5rem 
+}
+.menueText
+{ 
+    color: white; 
+    font-family: inherit; 
+    font-size: 0.8rem; 
+    margin-top: 0.9rem; 
+    font-weight: 800; 
+    margin-left: 0.3rem 
+}
+.navbar-search{
+    border: none;
+    background: none;
+    height: 1.246em;
+    min-height: 24px;
+    font-weight: bold;
+    width: 162px;
+    float: left;
+    padding: 0 0 0 6px;
+    color: #333;
+    font-weight: bold;
+    font-size: 0.8rem
+}
+.nav-search-icon{
+    width: 1rem;
+    margin: 5
+}
