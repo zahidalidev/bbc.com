@@ -1,0 +1,66 @@
+.header-card{
+    background-size: contain;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 80px rgb(0 0 0 / 50%);
+}
+
+.media-shade{
+    background-image: linear-gradient( rgba(255, 255, 255, 0.1), rgba(0, 0, 0, 0.5));
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.media-content{
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 1rem;
+    position: absolute;
+    bottom: 0;
+}
+
+.media-link{
+    font-size: 2rem;
+    color: white;
+}
+
+.media-link:hover{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+.media-description{
+    font-size: 1rem;
+    line-height: 22px;
+    color: #d3d3d3;
+    font-weight: 300;
+}
+
+.media-tag{
+    font-size: .875rem;
+
+    color: #d3d3d3;
+    position: relative;
+    bottom: auto;
+    left: auto;
+    right: auto;
+
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+}
+
+.media-tag::before {
+    height: 0.65625rem;
+    border-left-width: 0.13125rem;
+    content: " ";
+    display: inline-block;
+    margin-right: 0.5rem;
+    border-left: 2px solid #e91802;
+    height: 0.75rem;
+    padding: 0;
+    width: 0;
+}
